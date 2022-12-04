@@ -14,7 +14,6 @@ public class InsertAluno {
 		manager.getTransaction().begin();
 		
 		manager.persist(aluno);
-		Aluno a1 = (Aluno) manager.merge(aluno);
 		
 		manager.getTransaction().commit();
 	
