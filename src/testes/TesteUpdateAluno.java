@@ -1,7 +1,7 @@
 package testes;
 
 import actions.SearchAlunoById;
-import actions.UpdateAlunoById;
+import actions.UpdateAluno;
 import model.Aluno;
 
 public class TesteUpdateAluno {
@@ -10,7 +10,7 @@ public class TesteUpdateAluno {
 		Aluno aluno = SA.action(4L);
 		System.out.println(aluno.getEndereco());
 		aluno.setEndereco("enderecoEndreco");
-		UpdateAlunoById UA = new UpdateAlunoById();
+		UpdateAluno UA = new UpdateAluno();
 		UA.action(aluno);
 		Aluno aluno2 = SA.action(4L);
 		System.out.println(aluno2.getEndereco());

@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 import model.Aluno;
 
-public class UpdateAlunoById {
+public class UpdateAluno {
 	public void action(Aluno aluno) {
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("alunos");
 		EntityManager manager = factory.createEntityManager();

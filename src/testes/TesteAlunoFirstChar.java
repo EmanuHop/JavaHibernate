@@ -1,7 +1,6 @@
 package testes;
 
 import java.util.List;
-import actions.SelectAlunos;
 import actions.SelectAlunosByFirstChar;
 import model.Aluno;
 
