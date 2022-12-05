@@ -19,7 +19,8 @@ public class SelectAlunosByFirstChar {
 		query.setParameter("paramChar", caracter+"%");
 		List<Aluno> alunos = query.getResultList();
 
-		
+		manager.close();
+		factory.close();
 		return alunos;
 	}
 }
