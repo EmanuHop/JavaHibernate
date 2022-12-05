@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 import model.Aluno;
 
 public class DeleteAlunoById {
-	public boolean acao(Long id) {
+	public boolean action(Long id) {
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("alunos");
 		EntityManager manager = factory.createEntityManager();
 		Aluno aluno = manager.find(Aluno.class, id);

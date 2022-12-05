@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 import model.Aluno;
 
 public class InsertAluno {
-	public void acao(Aluno aluno) {
+	public void action(Aluno aluno) {
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("alunos");
 		EntityManager manager = factory.createEntityManager();
 		

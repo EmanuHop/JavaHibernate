@@ -10,7 +10,7 @@ import javax.persistence.Persistence;
 import model.Aluno;
 
 public class SelectAlunosByFirstChar {
-	public List<Aluno> acao(String caracter){
+	public List<Aluno> action(String caracter){
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("alunos");
 		EntityManager manager = factory.createEntityManager();
 		

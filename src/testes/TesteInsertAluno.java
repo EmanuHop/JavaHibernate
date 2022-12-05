@@ -7,11 +7,11 @@ import model.Aluno;
 public class TesteInsertAluno {
 	public static void main(String[] args) {
 		Aluno a1 = new Aluno();
-		a1.setCPF("11111111113");
+		a1.setCPF("11111111112");
 		a1.setEndereco("ruaruarua");
 		a1.setDataNascimento(Calendar.getInstance());
-		a1.setNome("TheHomi");
+		a1.setNome("TheHomif");
 		InsertAluno IA = new InsertAluno();
-		IA.acao(a1);
+		IA.action(a1);
 	}
 }

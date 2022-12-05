@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 import model.Aluno;
 
 public class SearchAlunoById {
-	public Aluno acao(Long id) {
+	public Aluno action(Long id) {
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("alunos");
 		EntityManager manager = factory.createEntityManager();
 		
